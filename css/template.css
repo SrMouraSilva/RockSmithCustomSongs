@@ -1,0 +1,93 @@
+/* 
+Author: Paulo Mateus - http://srmourasilva.github.io/
+*/
+
+/*****************************
+ * Navbar 
+ */
+.navbar {
+	border-bottom: 1px solid #080808;
+}
+
+.navbar h1 {
+	color: #DDD;
+	text-shadow: 1px 1px 3px #000000;
+
+	font-size: 1.8em;
+	padding: 7px 0 7px 60px; margin: 0;
+
+	background-image: url("../imgs/icon.png");
+	background-repeat: no-repeat;
+	background-size: 50px auto;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+/*****************************
+ * Navbar side-nav 
+ */
+.side-nav {
+	border-top: 1px solid #080808;
+}
+.side-nav i.fa {
+	text-shadow: 1px 1px 3px #000000;
+}
+
+@media (min-width: 768px) {
+	.side-nav, .side-nav > li > a {
+		width: 150px; 
+	}
+	.side-nav i.fa {
+		width: 100%;
+		font-size: 25px;
+		padding-bottom: 5px;
+	}
+	
+	.side-nav a {
+		text-align: center;
+	}
+}
+
+
+/*****************************
+ * Content
+ * 
+ * For all pages 
+ */
+@media (min-width: 768px) {
+	#wrapper {
+		padding-left: 150px;
+	}
+}
+
+header {
+	margin: -50px -25px 20px -50px;
+	padding: 50px 50px 20px 50px;
+	background-color: #D9EDF7;
+    border-color: #BCE8F1;
+}
+
+.pagination {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+/*****************************
+ * Albums 
+ */
+.album {
+	height: 100%;
+	padding: 22px 7px;
+	background-color: #F5F5F5;
+	margin-bottom: 30px;
+}
+
+.album .inform li {
+	list-style-type:none;
+}
