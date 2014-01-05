@@ -20,6 +20,15 @@ Author: Paulo Mateus - http://srmourasilva.github.io/
 	background-repeat: no-repeat;
 	background-size: 50px auto;
 }
+@media (max-width: 400px) {
+	.navbar h1 {
+		padding-top: 10px;
+		font-size: 1.5em;
+	}
+}
+	.navbar h1 span {
+		float: left;
+	}
 
 .navbar-brand {
 	padding-top: 0px;
@@ -54,6 +63,26 @@ Author: Paulo Mateus - http://srmourasilva.github.io/
 
 
 /*****************************
+ * Page404 
+ */
+#page404 h2 {
+	font-size: 6em;
+	text-shadow: 1px 1px 0px #555;
+}
+#page404 p {
+	font-size: 3em;
+}
+#page404 img {
+	width: 100%;
+} 
+	#page404 img:first-child {
+		height: 60%;
+	}
+	#page404 img:last-child {
+		height: 20%;
+	}
+
+/*****************************
  * Content
  * 
  * For all pages 
@@ -67,9 +96,19 @@ Author: Paulo Mateus - http://srmourasilva.github.io/
 header {
 	margin: -50px -25px 20px -50px;
 	padding: 50px 50px 20px 50px;
-	background-color: #D9EDF7;
-    border-color: #BCE8F1;
 }
+	header.blue {
+		background-color: #D9EDF7;
+	}
+	header.green {
+		background-color: #15382A; /*E2F0D6;*/
+		color: #FFF;
+	}
+	header.dark {
+		background-color: #202B30;
+		color: #FFF;
+	}
+	
 
 .pagination {
 	display: block;

@@ -15,7 +15,7 @@ function album($band, $album, $total, $imgFile) {?>
 <?php } ?>
 
 
-<header>
+<header class="blue">
 	<h2><i class="fa fa-toggle-right"></i> Albums</h2>
 
 	<form class="form-horizontal" role="form">

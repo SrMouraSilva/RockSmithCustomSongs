@@ -8,21 +8,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><h1>Rocksmith Custom Songs</h1></a>
+      <a class="navbar-brand" href="?"><h1><span class="hidden-xs">Rocksmith&nbsp;</span>Custom Songs</h1></a>
     </div>
 
     <div class="collapse navbar-collapse navbar-ex1-collapse">
     	<!-- Menu Right Colum -->
           <ul class="nav navbar-nav side-nav">
-	            <li><a href="index.html"><i class="fa fa-search"></i> Search</a></li>
-	            <li><a href="index.html"><i class="fa fa-music"></i> Songs</a></li>
-	            <li><a href="index.html"><i class="fa fa-users"></i> Artists</a></li>
-	            <li class="<?php echo isset($_GET['albums'])? "active" : "" ?>">
-	            	<a href="index.php?albums"><i class="fa fa-toggle-right"></i> Albuns</a>
+	            <li class="<?php echo isset($_GET['search']) || count($_GET)==0? "active" : ""; ?>">
+	            	<a href="?search"><i class="fa fa-search"></i> Search</a>
 	            </li>
-	            <li><a href="index.html"><i class="fa fa-pencil"></i> Request</a></li>
-	            <li><a href="index.html"><i class="fa fa-star"></i> Approved</a></li>
-	            <li><a href="index.html"><i class="fa fa-info-circle"></i> About this</a></li>
+	            <li class="<?php echo isset($_GET['songs'])? "active" : "" ?>">
+	            	<a href="?songs"><i class="fa fa-music"></i> Songs</a>
+	            </li>
+	            <li><a href="?artists"><i class="fa fa-users"></i> Artists</a></li>
+	            <li class="<?php echo isset($_GET['albums'])? "active" : "" ?>">
+	            	<a href="?albums"><i class="fa fa-toggle-right"></i> Albuns</a>
+	            </li>
+	            <li><a href="?requests"><i class="fa fa-pencil"></i> Requests</a></li>
+	            <li class="<?php echo isset($_GET['approved'])? "active" : "" ?>">
+	            	<a href="?approved"><i class="fa fa-star"></i> Approved</a>
+	            </li>
+	            <li><a href="?about"><i class="fa fa-info-circle"></i> About this</a></li>
 	            <li><a href="http://forums.smithyanvil.com/"><i class="fa fa-list-alt"></i> Forum</a></li>
           </ul>
 
