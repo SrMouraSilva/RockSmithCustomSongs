@@ -28,7 +28,9 @@
 	            <li class="<?php echo isset($_GET['approved'])? "active" : "" ?>">
 	            	<a href="?approved"><i class="fa fa-star"></i> Approved</a>
 	            </li>
-	            <li><a href="?about"><i class="fa fa-info-circle"></i> About this</a></li>
+	            <li class="<?php echo isset($_GET['about'])? "active" : "" ?>">
+	            	<a href="?about"><i class="fa fa-info-circle"></i> About this</a>
+	            </li>
 	            <li><a href="http://forums.smithyanvil.com/"><i class="fa fa-list-alt"></i> Forum</a></li>
           </ul>
 

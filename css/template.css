@@ -1,6 +1,38 @@
 /* 
 Author: Paulo Mateus - http://srmourasilva.github.io/
 */
+html, body {
+	height: calc(100% - 50px);
+}
+body {
+	font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body.index {
+	background: rgba(0, 0, 0, 0.6);
+
+	background-image: url("../imgs/cover.jpg");
+	background-size: calc(100% - 145px) auto;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+	body.index main {
+		margin-top: 400px;
+	}
+
+	@media (max-width: 767px) {
+		body.index {
+			margin-top: 0px;
+			padding-top: 0px;
+			background-size: 100% auto;
+		}
+		body.index main {
+			margin-top: 250px;
+		}
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /*****************************
  * Navbar 
@@ -40,6 +72,7 @@ Author: Paulo Mateus - http://srmourasilva.github.io/
  * Navbar side-nav 
  */
 .side-nav {
+	font-family: "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	border-top: 1px solid #080808;
 }
 .side-nav i.fa {
@@ -96,25 +129,41 @@ Author: Paulo Mateus - http://srmourasilva.github.io/
 header {
 	margin: -50px -25px 20px -50px;
 	padding: 50px 50px 20px 50px;
+	color: #FFF;
 }
-	header.blue {
-		background-color: #D9EDF7;
+	header.yellow {
+		background-color: #3D2002; /*D9EDF7*/
 	}
 	header.green {
 		background-color: #15382A; /*E2F0D6;*/
-		color: #FFF;
 	}
-	header.dark {
+	header.blue {
 		background-color: #202B30;
-		color: #FFF;
 	}
-	
+	header.red {
+		background-color: #300000;
+	}
 
 .pagination {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 300px;
+}
+
+/*****************************
+ * Index 
+ */
+body.index {
+	background-color: #000;
+} 
+#index {
+
+}
+#index h2 {
+	font-size: 50px;
+	text-shadow: 1px 1px 3px #000000;
+	color: #FFF;
 }
 
 /*****************************
@@ -127,6 +176,18 @@ header {
 	margin-bottom: 30px;
 }
 
+.album .inform {
+	padding-left: 0px;
+}
+.album .inform ul {
+	padding: 0;
+}
 .album .inform li {
 	list-style-type:none;
 }
+	.album .contain {
+		font-size: 16px;
+	}
+	.album .contain img {
+		width: 18px;
+	}

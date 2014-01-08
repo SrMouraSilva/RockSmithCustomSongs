@@ -15,14 +15,14 @@ function album($band, $album, $total, $imgFile) {?>
 <?php } ?>
 
 
-<header class="blue">
+<header class="yellow">
 	<h2><i class="fa fa-toggle-right"></i> Albums</h2>
 
 	<form class="form-horizontal" role="form">
 	  <div class="form-group">
 	    <label for="search" class="col-sm-2 control-label">Search Album</label>
 	    <div class="col-sm-8">
-	      <input type="email" class="form-control" id="search" placeholder="Name">
+	      <input type="text" class="form-control" id="search" placeholder="Name">
 	    </div>
 	    <div class="col-sm-2">
 	      <input type="submit" class="form-control" value="Find">
@@ -36,7 +36,7 @@ function album($band, $album, $total, $imgFile) {?>
 <div class="row">
 <?php
 	album("Iron Maden", "Killers", "5", "iron_maiden_1.jpg");
-	album("PowerSlave", "Killers", "0", "iron_maiden_3.jpg");
+	album("Iron Maden", "PowerSlave", "0", "iron_maiden_3.jpg");
 	album("Iron Maden", "The Tropper", "0", "iron_maiden_2.jpg");
 
 	album("Ivete Sangalo", "Perfil", "0", "ivete_album.jpg");

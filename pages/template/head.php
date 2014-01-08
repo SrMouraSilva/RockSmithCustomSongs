@@ -3,7 +3,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Rocksmith Custon Songs</title>
+<title>Rocksmith Custom Songs</title>
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -16,3 +16,6 @@
 
 <!-- Page Specific CSS -->
 <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Exo+2:400,600italic|Ubuntu' rel='stylesheet' type='text/css'>

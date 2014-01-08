@@ -1,8 +1,8 @@
 <?php
-$pages = array('index', 'approved', 'albums', 'songs', 'song');
+$pages = array('search', 'about', 'approved', 'albums', 'songs', 'song');
 
 if (count($_GET) == 0) {
-	$pageRequired = 'index';
+	$pageRequired = 'search';
 
 } else {
 	reset($_GET);

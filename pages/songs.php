@@ -8,12 +8,10 @@ function song($music, $band, $album, $imgFile) {?>
       			<li><b><?php echo $music; ?></b><br /><br /></li>
  				<li><?php echo $band; ?></li>
 				<li><?php echo $album; ?><br /><br /></li>
-    			<li style="font-size: 20px">
-    				<img src="imgs/icoRS2012.png" width="22px" style="vertical-align: text-top;" title="RS2012" />
-    				<img src="imgs/icoRS2014.png" width="22px" style="vertical-align: text-top;" title="RS2014" />
+    			<li class="contain">
+    				<img src="imgs/icoRS2012.png" style="vertical-align: text-top;" title="RS2012" />
+    				<img src="imgs/icoRS2014.png" style="vertical-align: text-top;" title="RS2014" />
     				<span title="Guitar">G</span>
-    				<span title="Bass">B</span>
-    				<i class="fa fa-microphone" title="Lyric"></i>
     			</li>
 			</ul>
       	</div>
@@ -22,7 +20,7 @@ function song($music, $band, $album, $imgFile) {?>
 <?php } ?>
 
 
-<header class="dark">
+<header class="blue">
 	<h2><i class="fa fa-music"></i> Songs</h2>
 
 	<form class="form-horizontal" role="form">
