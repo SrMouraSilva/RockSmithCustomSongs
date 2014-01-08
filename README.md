@@ -18,6 +18,13 @@ Develop a site that any user previously registered, you can:
  - Be notified when a new version of a song is downloaded already posted.
  - Request songs
 
+Pages Remaining
+--------------
+
+ - View Sound
+ - Login
+ - View user page
+ 
 Acknowledgment
 --------------
 
