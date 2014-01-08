@@ -37,9 +37,11 @@
 		  <!-- Menu Top Header -->
           <ul class="nav navbar-nav navbar-right navbar-user">
     		    <li class="dropdown alerts-dropdown">
-              		<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="sr-only">Alerts</span> <span class="badge">3</span> <b class="caret"></b></a>
+              		<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="sr-only">Alerts</span> <span class="badge">4</span> <b class="caret"></b></a>
               		<ul class="dropdown-menu">
-                		<li><a href="#">3 new versions</a></li>
+                		<li><a href="#">"Reptila" attend</a></li>
+                		<li><a href="#">"By the way" in progress</a></li>
+                		<li><a href="#">2 new versions</a></li>
               		</ul>
         		</li>
 	            <li class="dropdown user-dropdown">

@@ -1,5 +1,5 @@
 <?php
-$pages = array('search', 'about', 'approved', 'albums', 'songs', 'song');
+$pages = array('search', 'about', 'approved', 'albums', 'songs', 'song', 'requests');
 
 if (count($_GET) == 0) {
 	$pageRequired = 'search';

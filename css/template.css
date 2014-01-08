@@ -143,6 +143,9 @@ header {
 	header.red {
 		background-color: #300000;
 	}
+	header.purple {
+		background-color: #370242;
+	}
 
 .pagination {
 	display: block;
@@ -187,6 +190,7 @@ body.index {
 }
 	.album .contain {
 		font-size: 16px;
+		cursor: default;
 	}
 	.album .contain img {
 		width: 18px;

@@ -21,7 +21,7 @@ Develop a site that any user previously registered, you can:
 Pages Remaining
 --------------
 
- - View Sound
+ - View Music
  - Login
  - View user page
  
