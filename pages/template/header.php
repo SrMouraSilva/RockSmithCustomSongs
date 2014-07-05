@@ -31,7 +31,7 @@
 	            <li class="<?php echo isset($_GET['about'])? "active" : "" ?>">
 	            	<a href="?about"><i class="fa fa-info-circle"></i> About this</a>
 	            </li>
-	            <li><a href="http://forums.smithyanvil.com/"><i class="fa fa-list-alt"></i> Forum</a></li>
+	            <li><a href="http://customsforge.com/"><i class="fa fa-list-alt"></i> Forum</a></li>
           </ul>
 
 		  <!-- Menu Top Header -->

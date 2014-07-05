@@ -15,7 +15,7 @@ ini_set('display_errors', 1);
 		<?php include_once("pages/template/header.php"); ?>
 
       	<article id="page-wrapper">
-      		<?php include_once("pages/_pageselector_.php"); ?>
+      		<?php include_once("pages/_pageSelector_.php"); ?>
       	</article>
 
       	<?php include_once("pages/template/footer.php"); ?>
